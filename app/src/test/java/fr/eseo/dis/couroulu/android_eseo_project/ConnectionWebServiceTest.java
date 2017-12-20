@@ -10,10 +10,10 @@ public class ConnectionWebServiceTest {
 
     @Test
     public void ResultLoginTest() throws Exception {
-        String login="test";
-        String password="test";
+        String login="campoli";
+        String password="QAmG3qbD4ZXu";
 
-        BeanResultLogin bean = ConnectionWebService.getResultConnection(login,password);
+       ConnectionWebService.getResultConnection(login,password);
     }
 
 }
