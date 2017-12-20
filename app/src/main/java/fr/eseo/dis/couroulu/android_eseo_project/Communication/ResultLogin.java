@@ -1,17 +1,17 @@
-package fr.eseo.dis.couroulu.android_eseo_project;
+package fr.eseo.dis.couroulu.android_eseo_project.Communication;
 
 /**
  * Created by Loulou on 20/12/2017.
  */
 
-public class BeanResultLogin {
+public class ResultLogin {
 
     private String result;
     private String api;
     private String token;
     private String error;
 
-    public BeanResultLogin(String result, String api, String token, String error) {
+    public ResultLogin(String result, String api, String token, String error) {
 
 
     }

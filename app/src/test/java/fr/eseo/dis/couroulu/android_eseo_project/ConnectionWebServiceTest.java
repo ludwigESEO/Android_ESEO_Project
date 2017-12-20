@@ -2,6 +2,8 @@ package fr.eseo.dis.couroulu.android_eseo_project;
 
 import org.junit.Test;
 
+import fr.eseo.dis.couroulu.android_eseo_project.Communication.ConnectionWebService;
+
 /**
  * Created by Loulou on 20/12/2017.
  */

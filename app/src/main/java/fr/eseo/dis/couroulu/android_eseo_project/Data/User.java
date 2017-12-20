@@ -1,10 +1,10 @@
-package fr.eseo.dis.couroulu.android_eseo_project;
+package fr.eseo.dis.couroulu.android_eseo_project.Data;
 
 /**
  * Created by Loulou on 20/12/2017.
  */
 
-public class BeanLogin {
+public class User {
     private int idUser;
     private String username;
     private String surname;
