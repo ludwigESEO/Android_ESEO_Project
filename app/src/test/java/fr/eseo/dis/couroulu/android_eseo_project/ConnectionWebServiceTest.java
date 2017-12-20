@@ -13,7 +13,7 @@ public class ConnectionWebServiceTest {
         String login="test";
         String password="test";
 
-        BeanResultLogin bean = ConnectionWebService.getResultConnection(login,password);
+        ConnectionWebService.getResultConnection(login,password);
     }
 
 }
