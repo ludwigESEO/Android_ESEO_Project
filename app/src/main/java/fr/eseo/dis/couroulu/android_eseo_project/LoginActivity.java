@@ -205,6 +205,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         return password.length() > 4;
     }
 
+
+
     /**
      * Shows the progress UI and hides the login form.
      */
@@ -270,6 +272,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             mLogin = login;
             mPassword = password;
         }
+
+
 
         @Override
         protected Boolean doInBackground(Void... params) {
