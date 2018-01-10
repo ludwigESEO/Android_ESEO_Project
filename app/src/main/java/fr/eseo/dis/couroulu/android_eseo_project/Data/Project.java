@@ -1,5 +1,8 @@
 package fr.eseo.dis.couroulu.android_eseo_project.Data;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by florent on 10/01/18.
  */
@@ -7,38 +10,10 @@ package fr.eseo.dis.couroulu.android_eseo_project.Data;
 public class Project {
     private int idProject;
     private String title;
-    private String description;
-    private int confidentiality;
+    private String descrip;
+    private boolean poster;
+    private List<Supervisor> supervisor;
+    private int confid;
+    private List<Student> students;
 
-    public int getIdProject() {
-        return idProject;
-    }
-
-    public void setIdProject(int idProject) {
-        this.idProject = idProject;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public int getConfidentiality() {
-        return confidentiality;
-    }
-
-    public void setConfidentiality(int confidentiality) {
-        this.confidentiality = confidentiality;
-    }
 }
