@@ -1,4 +1,4 @@
-package fr.eseo.dis.couroulu.android_eseo_project;
+package fr.eseo.dis.couroulu.android_eseo_project.Activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -12,6 +12,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import fr.eseo.dis.couroulu.android_eseo_project.R;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
